@@ -134,13 +134,8 @@ Based on your data, the following keypoints are supported:
 - The script automatically handles missing data and provides informative error messages.
 - Y-axis is inverted for image coordinates to match video frame orientation.
 
-## Troubleshooting
 
-1. **Missing dependencies**: Install all requirements with `pip install -r requirements.txt`
-2. **File not found**: Ensure the CSV file path is correct and the file exists
-3. **No data**: Check that the CSV file contains the expected column format
-4. **Memory issues**: For large datasets, consider processing subsets of frames
+## EOF Sleap issue
 
-## License
-
-This script is provided as-is for research and educational purposes. 
+- Made a issue document for the same, addressing the EOF corrupted frames problem. 
+- The script (rewrite_to_mjpg_avi.py) converts the mkv file format into mjpg format frame-by-frame, keeping constant frame rate with a uniform video.
